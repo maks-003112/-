@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot('8052926381:AAHOHiqUaQ8aI801XOVMPFOQLaNt8S3K4YU')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(func=lambda message: True)
 def echo_all(message):
