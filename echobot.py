@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot('')
+bot = telebot.TeleBot('TELEGRAM_BOT_TOKEN')
 
 @bot.message_handler(func=lambda message: True)
 def echo_all(message):
